@@ -1,12 +1,14 @@
 <template>
     <div class="citacao">
-        
+        <slot name="fonte"></slot>
+        <slot name="autor"></slot>
+        <slot name="texto"></slot>
     </div>
 </template>
 
 <script>
 export default {
-
+    
 }
 </script>
 
