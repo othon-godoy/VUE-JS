@@ -40,6 +40,18 @@ export default {
         indice() {
             return Math.abs(this.numero % 3)
         }
+    },
+    created() {
+
+    },
+    destroyed() {
+
+    },
+    activated() {
+
+    },
+    deactivated() {
+        
     }
 }
 </script>
